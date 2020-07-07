@@ -26,7 +26,7 @@ print(y)
 
 a = ["foo", "bar", "baz"]
 
-y = [n.upper() for n in a]
+y = [n.upper() for n in range(len(a))]
 
 print(y)
 
